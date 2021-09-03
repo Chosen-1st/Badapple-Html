@@ -1,0 +1,55 @@
+<head> 
+<title>BadApple验证界面</title> 
+</head> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script>
+var time=5;
+var timer=setInterval('tiaozhuan()',1000);
+function tiaozhuan(){
+var t= document.getElementById("id8");
+if(time>0){
+t.innerHTML=time;
+time--;
+}else {
+clearInterval(timer);
+location.href="https://badapple.chosen.tk/Badapple.html/";
+}
+}
+</script>
+</head>
+<body>
+<font color=blue size=6>正在进行安全检测中</font><font id="id8" size="7" color=red>5</font><font color=blue size=6>秒钟后跳转请等待</font><a href="https://badapple.chosen.tk/Badapple.html/" ></a>
+</body>
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>文字底部居中</title>
+
+<style>
+
+*{margin:0px; padding:0px;} /*这行是为了清除代码默认的样式，不用拷贝*/
+
+.botCenter{width:100%; height:35px; line-height:35px; background:#ccc; position:fixed; bottom:0px; left:0px; font-size:14px; color:#000; text-align:center;}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="botCenter">人机验证 By Chosen</div>
+
+</body>
+
+</html>
+</html>
